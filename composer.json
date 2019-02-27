@@ -1,5 +1,5 @@
 {
-    "name": "fourlabs/xero-bundle",
+    "name": "nathanlon/xero-bundle",
     "description": "Symfony bundle wrapping the XeroPHP library",
     "type": "symfony-bundle",
     "keywords": ["xero", "xero-php"],
