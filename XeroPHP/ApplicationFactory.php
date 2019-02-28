@@ -26,20 +26,13 @@ class ApplicationFactory
     private $config;
 
     /**
-     * @param string $type   One of "public"; "private"; "partner"
-     * @param array  $config The configuration for XeroPHP
+     * @return Application
      */
-    public function __construct(string $type, array $config)
+    public function createApplication(string $type, array $config)
     {
         $this->type = $type;
         $this->config = $config;
-    }
 
-    /**
-     * @return Application
-     */
-    public function createApplication()
-    {
         if ($this->type === static::TYPE_PUBLIC) {
             return new PublicApplication($this->config);
         }
