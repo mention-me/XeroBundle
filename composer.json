@@ -1,12 +1,12 @@
 {
-    "name": "nathanlon/xero-bundle",
+    "name": "fourlabs/xero-bundle",
     "description": "Symfony bundle wrapping the XeroPHP library",
     "type": "symfony-bundle",
     "minimum-stability": "dev",
     "keywords": ["xero", "xero-php"],
     "require": {
         "php": ">=5.5.9",
-        "nathanlon/xero-php": "^1.8",
+        "calcinai/xero-php": "dev-master",
         "symfony/config": "^2.7|^3.0|^4.2",
         "symfony/debug": "^2.7|^3.0|^4.2",
         "symfony/dependency-injection": "^2.7|^3.0|^4.2",
