@@ -6,7 +6,7 @@
     "keywords": ["xero", "xero-php"],
     "require": {
         "php": ">=5.5.9",
-        "nathanlon/xero-php": "dev-master",
+        "nathanlon/xero-php": "^1.8",
         "symfony/config": "^2.7|^3.0|^4.2",
         "symfony/debug": "^2.7|^3.0|^4.2",
         "symfony/dependency-injection": "^2.7|^3.0|^4.2",
